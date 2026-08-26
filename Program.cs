@@ -1,2 +1,1 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿SearchInsert.SearchInsert.SearchInsertMethod([1,3,5,6],0);

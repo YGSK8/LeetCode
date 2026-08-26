@@ -1,7 +1,6 @@
 namespace TwoSum;
 
 using System.Diagnostics.CodeAnalysis;
-using Recusions;
 
 public class TwoSumBackTracking //--wrong! Not he correct solution
 {
@@ -21,7 +20,6 @@ public class TwoSumBackTracking //--wrong! Not he correct solution
             {
                 final.Add(input.IndexOf(val));
             }
-            Recursions.Display(final);
             stop=true;
             return;
         }

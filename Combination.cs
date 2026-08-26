@@ -1,5 +1,4 @@
 namespace Combinations;
-using Recusions;
 
 public class Combinations
 {
@@ -14,7 +13,6 @@ public class Combinations
         if(combination.Count==length){
             
             combinations.Add([..combination]);
-            Recursions.Display(combination);
             return;}//--base case
         for(int i = start; i <= n; i++)
         {

@@ -1,5 +1,4 @@
 namespace CombinationSum;
-using Recusions;
 
 public class CombinationSum
 {
@@ -13,7 +12,6 @@ public class CombinationSum
     {
         if(remaining==0){
             combinations.Add([..combination]);
-            Recursions.Display(combination);
             return;
             }
         if(remaining<0){return;}
